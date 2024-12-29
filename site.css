@@ -1,0 +1,196 @@
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: url(cd.avif);
+    color: #333;
+}
+
+/* Seção principal do herói (Hero Section) */
+#hero {
+    height: 100vh;
+    
+    color: rgb(250, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+
+#hero .content {
+    z-index: 2;
+    
+}
+
+#hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* Seção de promoções */
+#promo {
+    background-color: #fff;
+    padding: 50px 20px;
+}
+
+#promo h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.promo-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.promo-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.promo-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.promo-card h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.promo-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.promo-card span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5722;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Seção de Depoimentos */
+#testimonials {
+    background-color: #eeeeee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #666;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Seção de Newsletter */
+#newsletter {
+    background-color: #ff5722;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#newsletter p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background-color: #e64a19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#newsletter button:hover {
+    background-color: #d84315;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
